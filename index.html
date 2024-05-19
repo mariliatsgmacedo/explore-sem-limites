@@ -13,85 +13,81 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="container">
-      <section class="banner">
-        <img
-          class="banner__image"
-          src="./images/astronaut.svg"
-          alt="astronauta com planetas coloridos ao redor"
-        />
-        <h1 class="banner__title">Explore sem limites</h1>
-        <p class="banner__subtitle">Porque o aprendizado é contínuo</p>
-        <img class="banner__arrow" src="./images/arrow.svg" alt="" />
-      </section>
-      <section class="cards">
-        <div class="cards__card">
-          <img
-            class="cards__card-image"
-            src="./images/yellow-moon.png"
-            alt="Planeta amarelo"
-          />
-          <h3 class="cards__card-title">Não pare nunca</h3>
-          <p class="cards__card-description">
-            Se você deseja ter sucesso nos estudos, é fundamental que você adote
-            uma mentalidade de "não pare nunca". Estudar de forma consistente e
-            contínua é a chave para o progresso e a conquista de seus objetivos.
+    <header class="header">
+      <div class="header__image">
+        <img src="./images/astronaut.svg" alt="">
+      </div>
+      <div class="header__content">
+        <div class="header__text-container">
+          <h1 class="title">Explore sem limites</h1>
+          <span class="description">Porque o aprendizado é contínuo</span>
+        </div>
+        <div class="header__image-arrow">
+          <img src="./images/arrow.svg" alt="">
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="cards__container">
+        <div class="cards__container-card">
+          <img src="./images/yellow-moon.png" alt="">
+          <p class="cards__conteiner-card-title">Não pare nunca</p>
+          <p class="cards__conteiner-card-description">
+            Se você deseja ter sucesso nos estudos, é fundamental 
+            que você adote uma mentalidade de "não pare nunca". 
+            Estudar de forma consistente e contínua é a chave 
+            para o progresso e a conquista de seus objetivos.
           </p>
         </div>
-        <div class="cards__card">
-          <img
-            class="cards__card-image"
-            src="./images/blue-moon.png"
-            alt="Planeta amarelo"
-          />
-          <h3 class="cards__card-title">Só volta</h3>
-          <p class="cards__card-description">
-            Se você parou ou perdeu o ritmo em alguma atividade ou projeto,
-            saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias
-            podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.
+        <div class="cards__container-card">
+          <img src="./images/blue-moon.png" alt="">
+          <p class="cards__conteiner-card-title">Só volta</p>
+          <p class="cards__conteiner-card-description">
+            Se você parou ou perdeu o ritmo em alguma atividade ou 
+            projeto, saiba que nunca é tarde para recomeçar. 
+            Às vezes, as circunstâncias podem mudar, ou podemos 
+            nos sentir desmotivados ou sobrecarregados.
           </p>
         </div>
-        <div class="cards__card">
-          <img
-            class="cards__card-image"
-            src="./images/pink-moon.png"
-            alt="Planeta amarelo"
-          />
-          <h3 class="cards__card-title">Siga seu ritmo</h3>
-          <p class="cards__card-description">
-            Avançar pouco a pouco mantém progresso constante em objetivos,
-            evitando parar ou desistir. Mesmo pequenos passos nos aproximam do
-            destino e motivam a continuidade. Não subestime o poder de cada ação
-            rumo ao objetivo final.
+        <div class="cards__container-card">
+          <img src="./images/pink-moon.png" alt="">
+          <p class="cards__conteiner-card-title">Siga seu ritmo</p>
+          <p class="cards__conteiner-card-description">
+            Avançar pouco a pouco mantém progresso constante em objetivos, 
+            evitando parar ou desistir. Mesmo pequenos passos nos aproximam 
+            do destino e motivam a continuidade. Não subestime o poder de cada 
+            ação rumo ao objetivo final.
           </p>
         </div>
       </section>
-      <section class="contato">
-        <h3 class="contact__title">Entre em contato</h3>
-        <input
-        
-          class="contact__input"
-          type="text"
-          name=""
-          id=""
-          placeholder="Seu nome"
-        />
-        <input
-          class="contact__input"
-          type="email"
-          name=""
-          id=""
-          placeholder="Email"
-        />
-        <textarea
-          class="contact__input textarea"
-          name=""
-          id=""
-          placeholder="Digite sua mensagem aqui..."
-        ></textarea>
-        <button class="contact__button" type="button">Enviar Mensagem</button>
+      <section class="contact__us">
+        <div class="contact__us-form">
+          <h3 class="contact__title">Entre em contato</h3>
+          <input
+            class="contact__input"
+            type="text"
+            placeholder="Seu nome"
+          />
+          <input
+            class="contact__input"
+            type="email"
+            placeholder="Email"
+          />
+          <textarea
+            class="contact__input textarea"
+            placeholder="Digite sua mensagem aqui..."
+          ></textarea>
+  
+          <button class="contact__button" type="button">Enviar Mensagem</button>
+        </div>
+        <div class="contact__us-image">
+          <img src="./images/star-back-footer.svg" alt="">
+        </div>
+
       </section>
+      <footer class="footer">© 2023 - Rocketseat Explorer</footer>
+
     </main>
-    <footer class="footer">© 2023 - Rocketseat Explorer</footer>
+       
   </body>
 </html>
